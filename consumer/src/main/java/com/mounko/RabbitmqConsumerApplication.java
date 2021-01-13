@@ -13,7 +13,10 @@ public class RabbitmqConsumerApplication {
 
 
 	@StreamListener(target = Sink.INPUT)
-	public void processRegisterEmployees(Employee employee) {
+	public void processRegisterEmployees(Employee employee) throws Exception {
+		if(employee.getEmpID().equals("0")){
+			throw new Exception("id can't be 0");
+		}
 		System.out.println("Employees Registered by Client " + employee);
 	}
 
