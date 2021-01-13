@@ -1,4 +1,5 @@
-package com.mounko.rabbitmq.model;
+package com.mounko.model;
+
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true)

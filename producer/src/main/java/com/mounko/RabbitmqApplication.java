@@ -1,4 +1,4 @@
-package com.mounko.rabbitmq;
+package com.mounko;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

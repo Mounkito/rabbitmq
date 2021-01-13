@@ -1,6 +1,6 @@
-package com.mounko.rabbitmq.controller;
+package com.mounko.controller;
 
-import com.mounko.rabbitmq.model.Employee;
+import com.mounko.model.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.stream.annotation.EnableBinding;
 import org.springframework.cloud.stream.messaging.Source;

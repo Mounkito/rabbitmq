@@ -5,8 +5,13 @@
 
 	<groupId>com.mounko</groupId>
 	<artifactId>rabbitmq</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>rabbitmq</name>
+    <packaging>pom</packaging>
+    <version>0.0.1-SNAPSHOT</version>
+    <modules>
+        <module>producer</module>
+		<module>consumer</module>
+	</modules>
+    <name>rabbitmq</name>
 	<description>Demo project for Spring Boot</description>
 
 
